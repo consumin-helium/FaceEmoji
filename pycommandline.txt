@@ -1,0 +1,3 @@
+here is the command to compile app to exe
+---
+pyinstaller -n EmojiFace --onefile --icon=Logo.ico EmojiFace.spec --add-binary D:\\python\\Lib\\site-packages\\cv2\\opencv_videoio_ffmpeg411.dll;.
